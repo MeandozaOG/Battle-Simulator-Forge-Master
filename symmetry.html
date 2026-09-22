@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>SYMMETRY</title>
+<title>DELPHI</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
 body{font-family:Arial,sans-serif;margin:40px;background:#e0e0e0}
@@ -30,7 +30,7 @@ tr:nth-child(even){background:#d0d0d0}
 </style>
 </head>
 <body>
-<h2>SYMMETRY</h2>
+<h2>DELPHI</h2>
 
 <div class="select-container">
 <label>Select War:</label>
@@ -89,7 +89,7 @@ const getColor=r=>r>=46?'#d73027':r>=36?'#fc8d59':r>=21?'#4575b4':r>=6?'#238b45'
 const warChart=new Chart(document.getElementById('warPointsChart'),{
   type:'line',
   data:{labels:['Day 1','Day 2','Day 3','Day 4','Day 5'],
-        datasets:[{label:'Symmetry',data:[],borderColor:'blue',tension:.3},
+        datasets:[{label:'Delphi',data:[],borderColor:'blue',tension:.3},
                   {label:'Enemy Clan',data:[],borderColor:'red',tension:.3}]},
   options:{responsive:true,maintainAspectRatio:false,
            scales:{y:{beginAtZero:false}},plugins:{legend:{display:true}}}
