@@ -9,8 +9,8 @@
 
 const players_war_1 = [
   {
-    name: "Player One",
-    points: [0, 0, 0, 0, 0]
+    name: "Belekas",
+    points: [12000, 0, 0, 0, 0]
   },
   {
     name: "Player Two",
