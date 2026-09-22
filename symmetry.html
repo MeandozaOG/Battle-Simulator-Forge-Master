@@ -70,7 +70,7 @@ tr:nth-child(even){background:#d0d0d0}
 <script src="data.js"></script>
 
 <script>
-let players=players_war_3,activeDays=new Set([0,1,2,3,4]),activeRange='all',globalColors={};
+let players=players_war_1,activeDays=new Set([0,1,2,3,4]),activeRange='all',globalColors={};
 const tableBody=document.getElementById('playersTable'),warSelect=document.getElementById('warSelect'),
 dayBtns=document.querySelectorAll('[data-day]'),rangeBtns=document.querySelectorAll('[data-range]'),
 allDaysBtn=document.getElementById('selectAllDays');
@@ -109,20 +109,16 @@ dayBtns.forEach(b=>b.onclick=()=>{const d=+b.dataset.day;activeDays.has(d)?activ
 allDaysBtn.onclick=()=>{activeDays.size===5?activeDays.clear():activeDays=new Set([0,1,2,3,4]);dayBtns.forEach(x=>x.classList.toggle('active',activeDays.has(+x.dataset.day)));allDaysBtn.classList.toggle('active',activeDays.size===5);update()};
 rangeBtns.forEach(b=>b.onclick=()=>{activeRange=b.dataset.range;rangeBtns.forEach(x=>x.classList.toggle('active',x===b));update()});
 
-warSelect.onchange=()=>{
-  players=warSelect.value=='war11'?players_war_11:
-		  warSelect.value=='war10'?players_war_10:
-		  warSelect.value=='war9'?players_war_9:
-		  warSelect.value=='war8'?players_war_8:
-		  warSelect.value=='war7'?players_war_7:
-		  warSelect.value=='war6'?players_war_6:
-		  warSelect.value=='war5'?players_war_5:
-          warSelect.value=='war4'?players_war_4:
-          warSelect.value=='war3'?players_war_3:
-          warSelect.value=='war2'?players_war_2:players_war_1;
-  const c=warSelect.selectedOptions[0].dataset.color;
-  warSelect.style.background=c;warSelect.style.color=c=='white'?'black':'white';
-  computeColors();update();updateWarChart()
+warSelect.onchange = () => {
+  players = players_war_1;
+
+  const c = warSelect.selectedOptions[0].dataset.color;
+  warSelect.style.background = c;
+  warSelect.style.color = c === 'white' ? 'black' : 'white';
+
+  computeColors();
+  update();
+  updateWarChart();
 };
 
 computeColors();warSelect.onchange();
