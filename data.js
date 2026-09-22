@@ -1,16 +1,54 @@
 const players_war_1 = [
-  {
-    name: "Belekas",
-    points: [12000, 0, 0, 0, 0]
-  },
-  {
-    name: "Player Two",
-    points: [0, 0, 0, 0, 0]
-  },
-  {
-    name: "Player Three",
-    points: [0, 0, 0, 0, 0]
-  }
+  { name: "Flunkeren", points: [0, 0, 0, 0, 0] },
+  { name: "Belekas", points: [0, 0, 0, 0, 0] },
+  { name: "BOZUKTip", points: [0, 0, 0, 0, 0] },
+  { name: "Telmo", points: [0, 0, 0, 0, 0] },
+  { name: "DeanPhoenix", points: [0, 0, 0, 0, 0] },
+  { name: "Paschalis", points: [0, 0, 0, 0, 0] },
+  { name: "Matricule", points: [0, 0, 0, 0, 0] },
+  { name: "BoldBaron", points: [0, 0, 0, 0, 0] },
+  { name: "Tyrania66", points: [0, 0, 0, 0, 0] },
+  { name: "CrimsonGrave", points: [0, 0, 0, 0, 0] },
+  { name: "EPOKAZIIN", points: [0, 0, 0, 0, 0] },
+  { name: "HarryMack", points: [0, 0, 0, 0, 0] },
+  { name: "Jordasian", points: [0, 0, 0, 0, 0] },
+  { name: "Bonkers89", points: [0, 0, 0, 0, 0] },
+  { name: "MishoOo", points: [0, 0, 0, 0, 0] },
+  { name: "Shanrai", points: [0, 0, 0, 0, 0] },
+  { name: "Dedstar", points: [0, 0, 0, 0, 0] },
+  { name: "DAORA1", points: [0, 0, 0, 0, 0] },
+  { name: "SASJOSH98", points: [0, 0, 0, 0, 0] },
+  { name: "Ganxito", points: [0, 0, 0, 0, 0] },
+  { name: "Pipper", points: [0, 0, 0, 0, 0] },
+  { name: "WeirdAtlas2123", points: [0, 0, 0, 0, 0] },
+  { name: "Mumbles123", points: [0, 0, 0, 0, 0] },
+  { name: "Kidderminster", points: [0, 0, 0, 0, 0] },
+  { name: "MeTaL666", points: [0, 0, 0, 0, 0] },
+  { name: "Dintru333", points: [0, 0, 0, 0, 0] },
+  { name: "JudgeFredd", points: [0, 0, 0, 0, 0] },
+  { name: "AgnelitaMe", points: [0, 0, 0, 0, 0] },
+  { name: "Zeratois", points: [0, 0, 0, 0, 0] },
+  { name: "marke", points: [0, 0, 0, 0, 0] },
+  { name: "froggbeard", points: [0, 0, 0, 0, 0] },
+  { name: "Bapti", points: [0, 0, 0, 0, 0] },
+  { name: "FartManLT", points: [0, 0, 0, 0, 0] },
+  { name: "Nugetti", points: [0, 0, 0, 0, 0] },
+  { name: "mb03", points: [0, 0, 0, 0, 0] },
+  { name: "Azzy974", points: [0, 0, 0, 0, 0] },
+  { name: "Aleshot", points: [0, 0, 0, 0, 0] },
+  { name: "StonyClaw", points: [0, 0, 0, 0, 0] },
+  { name: "DzinTonik", points: [0, 0, 0, 0, 0] },
+  { name: "Teqqz", points: [0, 0, 0, 0, 0] },
+  { name: "000ooo", points: [0, 0, 0, 0, 0] },
+  { name: "Guest 5475", points: [0, 0, 0, 0, 0] },
+  { name: "BANANA33", points: [0, 0, 0, 0, 0] },
+  { name: "MavzeR", points: [0, 0, 0, 0, 0] },
+  { name: "SnowyQueen", points: [0, 0, 0, 0, 0] },
+  { name: "Antortxag", points: [0, 0, 0, 0, 0] },
+  { name: "GobbleDeezNutz", points: [0, 0, 0, 0, 0] },
+  { name: "Sbar", points: [0, 0, 0, 0, 0] },
+  { name: "ValkieRae", points: [0, 0, 0, 0, 0] },
+  { name: "Pancratore", points: [0, 0, 0, 0, 0] }
 ];
 
 const war_points = {
