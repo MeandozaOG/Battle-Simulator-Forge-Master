@@ -86,7 +86,7 @@ const warChart=new Chart(document.getElementById('warPointsChart'),{
 });
 const updateWarChart=()=>{const d=war_points[warSelect.value];warChart.data.datasets[0].data=d.clan;warChart.data.datasets[1].data=d.enemy;warChart.update()};
 
-const chart=new Chart(playersChart,{
+const chart=new Chart(document.getElementById('playersChart'),{
   type:'line',
   data:{labels:[],datasets:[]},
   options:{responsive:true,maintainAspectRatio:false,
