@@ -1,12 +1,3 @@
-// <option value="war4" data-color="white">War 4</option>
-//players=warSelect.value=='war4'?players_war_4: ...
-
-
-
-
-
-
-
 const players_war_1 = [
   {
     name: "Belekas",
@@ -28,12 +19,3 @@ const war_points = {
     enemy: [0, 0, 0, 0, 0]
   }
 };
-    points:Array.from({length:5},()=>Math.floor(Math.random()*400000+50000))
-  }));
-  
-const players_war_1 = randomPlayers();
-
-
-
-
-
